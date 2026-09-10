@@ -1,0 +1,45 @@
+backend/
+├── app/
+│   ├── main.py
+│   │
+│   ├── api/
+│   │   ├── __init__.py
+│   │   ├── repositories.py
+│   │   ├── scans.py
+│   │   └── issues.py
+│   │
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   └── security.py
+│   │
+│   ├── db/
+│   │   ├── __init__.py
+│   │   ├── database.py
+│   │   └── models.py
+│   │
+│   ├── schemas/
+│   │   ├── __init__.py
+│   │   ├── repository.py
+│   │   ├── scan.py
+│   │   └── issue.py
+│   │
+│   ├── services/
+│   │   ├── github_service.py
+│   │   ├── scan_service.py
+│   │   └── scoring_service.py
+│   │
+│   └── scanner/
+│       ├── __init__.py
+│       ├── orchestrator.py
+│       ├── rules_engine.py
+│       └── adapters/
+│           ├── python_adapter.py
+│           ├── javascript_adapter.py
+│           └── base.py
+│
+├── tests/
+├── .env
+├── .gitignore
+├── requirements.txt
+└── README.md
